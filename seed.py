@@ -1,6 +1,6 @@
 
 from pony.orm import db_session
-from Todo.Models.models import Todo,Tag
+from Todo.Models.models import Todo, Tag
 
 
 with db_session:

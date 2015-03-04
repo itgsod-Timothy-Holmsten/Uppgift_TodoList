@@ -2,9 +2,9 @@ import os
 
 os.environ['APP_SETTINGS'] = "config.DevelopmentConfig"
 
-import seed
-
 from Todo import app
+
+import seed
 
 
 if __name__ == '__main__':
